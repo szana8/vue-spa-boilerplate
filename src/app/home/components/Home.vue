@@ -1,13 +1,16 @@
 <template>
-$END$
+  <p>Home</p>
 </template>
 
 <script>
 export default {
-name: "Home"
-}
+  data() {
+    return {
+      index: null
+    };
+  },
+  mounted() {
+    //
+  }
+};
 </script>
-
-<style scoped>
-
-</style>
